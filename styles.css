@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+
+#container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+    background-color: lightyellow;
+  }
+  #container > div {
+    font-family: 'Raleway', sans-serif;
+    width: 33.4%;
+    height: 310px;
+    /*border: 2px dashed red;*/
+    padding-top: 20px;
+    background-color: #F0F0F0;
+  }
+
+
+  #sticky-footer {
+    height: 50px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+
+  
+
