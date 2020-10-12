@@ -9,23 +9,41 @@ body {
     flex-direction: row;            /* default value; can be omitted */
     flex-wrap: nowrap;              /* default value; can be omitted */
     justify-content: space-between; /* switched from default (flex-start, see below) */
-    background-color: lightyellow;
+    background-color: white;
   }
   #container > div {
     font-family: 'Raleway', sans-serif;
-    width: 33.4%;
-    height: 310px;
-    /*border: 2px dashed red;*/
-    padding-top: 20px;
+    /*width: 33.4%;
+    height: 35%;
+    border: 2px dashed red;*/
+    padding-top: 1%;
     background-color: #F0F0F0;
+    padding-left: 1%;
+    padding-bottom: 2%;
+  }
+
+  #container h6 {
+    padding-left: 7%;
+  }
+
+  .container1{
+    width: 33.4%;
+  }
+
+  .container2{
+    
+    width: 33.4%;
+  }
+
+  .container3{
+    width: 33.4%;
+    
   }
 
 
-  #sticky-footer {
-    height: 50px;
-    flex-shrink: 0;
-    text-align: left;
+
+
+  footer{
+    background-color: #231f20;
+    color: white;
   }
-
-  
-
